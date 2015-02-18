@@ -232,6 +232,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
+    
     border-color: transparent;
     background-color: #222;
 }
@@ -249,6 +250,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-collapse {
+    
+    
     border-color: rgba(255,255,255,.02);
 }
 
@@ -708,8 +711,94 @@ section h3.section-subheading {
 .team-member p {
     margin-top: 0;
 }
+.letterP3 {    
+    -webkit-transform: rotate(270deg); 
+    -moz-transform: rotate(270deg); 
+    -ms-transform: rotate(270deg); 
+      -o-transform: rotate(270deg); 
+      transform: rotate(270deg);
+      color: #000;
+      font-size: 20px;                
+      
+}
 
+.well13{
+    width: 100px;
+    background-color: #fff;
+    color: #CC0066;
+}
+.well12{
+    height: 100px;
+    width: 400px;
+}
+.header12{
+    font-weight: bold;
+    width: 200px;
+    color: #fff;
+    
+    font-size: 18px;                
+}
+.ribbon {
+  font-size: 16px !important;
+  /* This ribbon is based on a 16px font side and a 24px vertical rhythm. I've used em's to position each element for scalability. If you want to use a different font size you may have to play with the position of the ribbon elements */
 
+  position: relative;
+  background: #ba89b6;
+  color: #fff;
+  text-align: center;
+  padding: 1em 2em; /* Adjust to suit */
+  margin: 0 0 3em; /* Based on 24px vertical rhythm. 48px bottom margin - normally 24 but the ribbon 'graphics' take up 24px themselves so we double it. */
+}
+.ribbon:before, .ribbon:after {
+  content: "";
+  position: absolute;
+  display: block;
+  bottom: -1em;
+  border: 1.5em solid #986794;
+  z-index: -1;
+}
+.ribbon:before {
+  left: -2em;
+  border-right-width: 1.5em;
+  border-left-color: transparent;
+}
+.ribbon:after {
+  right: -2em;
+  border-left-width: 1.5em;
+  border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+  content: "";
+  position: absolute;
+  display: block;
+  border-style: solid;
+  border-color: #804f7c transparent transparent transparent;
+  bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+  left: 0;
+  border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+  right: 0;
+  border-width: 1em 1em 0 0;
+}
+
+    
+#p2{
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 16px;
+    color: #fff;
+}
+.well14{
+    height:100%;
+    width: 100%;
+    background-color:#fff;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 16px;                
+}
 section#contact {
     background-color: #222;
     background-image: url(https://unsplash.imgix.net/44/C3EWdWzT8imxs0fKeKoC_blackforrest.JPG?q=75&fm=jpg&auto=format&s=986aaa92169d4e97975fa66ebd60bafd);
@@ -1576,3 +1665,4 @@ article {
   box-shadow:-1px -1px 2px #000 inset, 1px 1px 2px #000 inset, 1px 1px 4px rgba(0,0,0,.4);
   background:#FFF;
 }
+//=====================================================

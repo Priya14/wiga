@@ -7,8 +7,9 @@ Rails.application.routes.draw do
   resources :events
   resources :contacts
   resources :users
-
-
+  resources :abouts
+  resources :office_bearers
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
