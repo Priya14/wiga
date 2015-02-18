@@ -30,9 +30,15 @@
     = render 'shared/header'
     - if controller.controller_name == 'homes'
       %marquee{onmouseout: "this.scrollAmount=2", onmouseover: "this.scrollAmount=0", scrollamount: "2"}
+        %img{src: "/assets/new.GIF",alt: "New", :width => "2.5%", :height => "80%"}/
+        %span.text-muted
+          Hello World...
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         %img{src: "/assets/new.GIF",alt: "New", :width => "2.5%"}/
-        test
+        %span.text-muted
+          Welcome to WIGA...
     .container
       = yield
-    
+    = render 'shared/footer'
         

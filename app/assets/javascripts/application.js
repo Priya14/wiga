@@ -15,7 +15,6 @@
 //= require jquery_ujs
 //= require bootstrap
 //= require bootstrap-datepicker
-//= require turbolinks
 //= require_tree .
 $(function() {
     $('a.page-scroll').bind('click', function(event) {
@@ -25,6 +24,9 @@ $(function() {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+    
+    $(".well").css("height", ((41 * ($(window).height()/100)))+"px");
+
 });
 
 // Highlight the top nav as scrolling occurs

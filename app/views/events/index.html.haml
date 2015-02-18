@@ -26,48 +26,38 @@
           .modal-dialog
             .modal-content
               .modal-header
+                Add new Event
                 %button.close{"aria-hidden" => "true", "data-dismiss" => "modal", :type => "button"} X
-                %h3#myModalLabel Add new Event
-                
+                 
+              .modal-body
                 = form_for @event do |f|
-                  .modal-body
-                    .col-sm-12
-            
-                      .col-sm-3
-                        Description
-                      .col-sm-6
-                        = f.text_area :description, :class => 'form-control'
-                 
-                    .col-sm-12
-                      .col-sm-3
-                      .col-sm-3
-                        Event Name
-                      .col-sm-6
-                        = f.text_field :event_name, :class => 'form-control'
-                 
-                    .col-sm-12
-                      .col-sm-3
-                      .col-sm-3
-                        Event Timings
-                      .col-sm-6
-                        = f.text_field :time, :class => 'form-control'
-                 
-                    .col-sm-12
-                      .col-sm-3
-                      .col-sm-3
-                        Event Date
-                      .col-sm-6
-                        = f.text_field :events_date, :class => 'datepicker form-control'
-                 
-                    .col-sm-12
-                      .col-sm-3
-                      .col-sm-3
-                        Avatar
-                      .col-sm-6
-                        = f.file_field :avatar
-                 
-                    .modal-footer
-                      = f.submit 'save', :class => 'btn btn-primary'
+                  .col-sm-12
+                    .col-sm-3
+                      Description
+                    .col-sm-6
+                      = f.text_area :description, :class => 'form-control'
+                  .col-sm-12
+                    .col-sm-3
+                      Event Name
+                    .col-sm-6
+                      = f.text_field :event_name, :class => 'form-control'
+                  .col-sm-12
+                    .col-sm-3
+                      Event Timings
+                    .col-sm-6
+                      = f.text_field :time, :class => 'form-control'
+                  .col-sm-12
+                    .col-sm-3
+                      Event Date
+                    .col-sm-6
+                      = f.text_field :events_date, :class => 'datepicker form-control'
+                  .col-sm-12
+                    .col-sm-3
+                      Avatar
+                    .col-sm-6
+                      = f.file_field :avatar
+                  .modal-footer
+                    = f.submit 'save', :class => 'btn btn-primary'
 .row
   .container
     - @events.each do |e|
