@@ -1,0 +1,38 @@
+!!!
+%html
+  %head
+    %title Wiga
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+
+    %link{:href => "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css", :rel => "stylesheet"}/
+    %link{:href => "/assets/ico/favicon.ico", :rel => "shortcut icon"}
+    -# %meta{:content => "user-scalable=0, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-density dpi=device-dpi", :name => "viewport"}/
+    %meta{:content => "true", :name => "HandheldFriendly"}/
+    %meta{:content => "initial-scale=2.3, user-scalable=no", :name => "viewport"}/
+    -# %script{:src => "http://code.jquery.com/jquery-1.8.2.min.js", :type => "text/javascript"}
+    %script{:src => "/assets/jquery.carouFredSel-6.2.0-packed.js", :type => "text/javascript"}
+    %link{:href => "/assets/bootstrap.css", :rel => "stylesheet", :type => "text/css"}/
+    / Font Awesome
+    %link{:href => "/assets/font-awesome.min.css", :rel => "stylesheet"}
+    / Web Font
+    %link{:href => "http://fonts.googleapis.com/css?family=Lato:300,400,700,900", :rel => "stylesheet", :type => "text/css"}
+    / Custom CSS
+    %link{:href => "/assets/style.css", :media => "all", :rel => "stylesheet", :type => "text/css"}/
+    %script{:src => "/assets/jquery.min.js"}
+    %script{:src => "/assets/responsiveslides.min.js"}
+    %script{:src => "http://code.jquery.com/jquery-1.8.2.min.js", :type => "text/javascript"}
+    %script{:src => "/assets/jquery.carouFredSel-6.2.0-packed.js", :type => "text/javascript"}
+    %script{:src => "/assets/bootstrap.min.js", :type => "text/javascript"}
+    
+  %body
+    = render 'shared/header'
+    - if controller.controller_name == 'homes'
+      %marquee{onmouseout: "this.scrollAmount=2", onmouseover: "this.scrollAmount=0", scrollamount: "2"}
+        %img{src: "/assets/new.GIF",alt: "New", :width => "2.5%"}/
+        test
+    .container
+      = yield
+    
+        

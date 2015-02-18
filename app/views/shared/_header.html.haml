@@ -1,0 +1,25 @@
+%body
+  %nav.navbar.navbar-default
+    .col-sm-12
+      .navbar-header
+        %button.navbar-toggle{"data-target" => ".navbar-collapse", "data-toggle" => "collapse", :type => "button"}
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %a.navbar-brand{:href => "index.html"}
+
+        %img.img-responsive{:src => "/assets/test.gif", :width => "50%", :height => "50%"}
+
+      .navbar-collapse.collapse
+        %ul.nav.navbar-nav.navbar-right
+          %li
+            %a{:href => "/homes"} Home
+          %li
+            %a{:href => "/abouts"} About us
+          %li
+            %a{:href => "/office_bearers"} Office Bearers
+          %li
+            %a{:href => "/events"} Events
+          %li
+            %a{:href => "/contacts"} Contact Us
+

@@ -1,0 +1,2 @@
+class OfficeBearersController < ApplicationController
+end
