@@ -149,10 +149,10 @@
                       Events
             %p 
               %h2
-                %marquee{direction: "up", height: "100%", loop: "true", onmouseout: "this.scrollAmount=2", onmouseover: "this.scrollAmount=0", scrollamount: "2", width: "100%"}
+                %marquee{direction: "up", height: "150", loop: "true", onmouseout: "this.scrollAmount=2", onmouseover: "this.scrollAmount=0", scrollamount: "2", width: "100%"}
                   - @events.each do |event|
                     %a{title: "#{event.events_date}"}
-                      = event.event_name
+                      = event.description
                       %br
                       %br
 

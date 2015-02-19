@@ -36,6 +36,7 @@
                       Description
                     .col-sm-6
                       = f.text_area :description, :class => 'form-control'
+                    %br
                   .col-sm-12
                     .col-sm-3
                       Event Name
@@ -64,22 +65,27 @@
       %table{:style => "width:100%;"}
         %thead
           %tr
-            %th{:style => "width:30%;"}
-            %th{:style => "width:30%;"}
+            %th{:style => "width:10%;"}
+            %th{:style => "width:20%;"}
             %th{:style => "width:30%;"}
         %tbody
           %tr
-            %td
-              = image_tag e.avatar, :size => '300',:class => 'img-thumbnail img-responsive'
+            
             %td
               .event-well-header
                 %center
-                  = e.event_name
+                  = e.events_date.strftime("%b")
               .event-well
                 %center
-                  = e.events_date
-                  (#{ e.time})
+                  = e.events_date.strftime("%d")
+            %td
+              = image_tag e.avatar, :size => '300',:class => 'img-thumbnail img-responsive'
 
             %td
-              = e.description
+              .row
+                .header12
+                  = e.event_name
+              .row
+                .p#p2 
+                  = e.description
               

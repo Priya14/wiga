@@ -22,7 +22,6 @@ class EventsController < ApplicationController
     end
   end
   def index
-    
     @events = Event.all
     @event = Event.new
   end

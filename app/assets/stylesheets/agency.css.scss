@@ -1,14 +1,21 @@
 
 .event-well{
+    border-radius: 0px 0px 10px 10px;
     width: 100px;
-    height: 100px;
+    height: 80px;
     color: black;
     background-color: white;
+    font-weight: bold;
+    font-size: 50px;
 }
 .event-well-header{
+    border-radius: 10px 10px 0px 0px;
     width: 100px;
     height: 30px;
     background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 27px;
 }
 
 
@@ -717,7 +724,7 @@ section h3.section-subheading {
     -ms-transform: rotate(270deg); 
       -o-transform: rotate(270deg); 
       transform: rotate(270deg);
-      color: #000;
+      color: #FFD700;
       font-size: 20px;                
       
 }
@@ -733,9 +740,7 @@ section h3.section-subheading {
 }
 .header12{
     font-weight: bold;
-    width: 200px;
     color: #fff;
-    
     font-size: 18px;                
 }
 .ribbon {
