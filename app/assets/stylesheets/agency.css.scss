@@ -397,7 +397,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+   
 }
 
 section h2.section-heading {
@@ -1238,37 +1238,13 @@ h2 {
   color:#442b4f;
 }
 
-/* h2:before { */
-/*   content: url('http://megandalbey.com/codepen/css-selectors/highlight.png'); */
-/*   position:absolute; */
-/*   display:block; */
-/*   margin-top:-10px; */
-/*   left:-15px; */
-/*   -webkit-animation: brush 1s; */
-/*   -webkit-animation-delay: 0s; */
-/*   -webkit-animation-direction: reverse; */
-/*   -webkit-mask-size: 295px 50px; */
-/*   -webkit-mask-repeat: no-repeat; */
-/*   -webkit-mask-image: url('http://megandalbey.com/codepen/css-selectors/strokemask.png'); */
-/*   /\* Mask animation unsupported by FF, and masks only supported in SVG format. *\/ */
-/* 	} */
-
-/* @-webkit-keyframes brush { */
-/*   0% { -webkit-mask-position: 0 0; } */
-/*   100% { -webkit-mask-position: 295px 0px; } */
-/* } */
-
-
-/* h2 + p { */
-/*   margin-left:50px; */
-/*   font-weight:bold; */
-/* } */
 
 /* - - - - - NOTEPAD - - - - - */
 
 .leather {  
   background:url('http://megandalbey.com/codepen/css-selectors/leather.jpg') #6b3a0d;
   width:520px;
+  height:600px;
   padding:5px;
   margin:-5px auto 0px;
   border-radius:5px;
@@ -1283,6 +1259,7 @@ h2 {
 .leather-stitch {
   border:1px dashed hsla(44, 84%, 36%, .8);
   padding:7px;
+  height:580px;
   -webkit-box-shadow:rgba(255,255,255,0.2) 1px 1px 1px, rgba(0,0,0,0.2) -1px -1px 1px, rgba(0,0,0,0.3) -1px -1px 1px inset, rgba(255,255,255,0.2) 1px 1px 2px inset;
   -moz-box-shadow:rgba(255,255,255,0.2) 1px 1px 1px, rgba(0,0,0,0.2) -1px -1px 1px, rgba(0,0,0,0.3) -1px -1px 1px inset, rgba(255,255,255,0.2) 1px 1px 2px inset;
   box-shadow:rgba(255,255,255,0.2) 1px 1px 1px, rgba(0,0,0,0.2) -1px -1px 1px, rgba(0,0,0,0.3) -1px -1px 1px inset, rgba(255,255,255,0.2) 1px 1px 2px inset;
@@ -1343,100 +1320,13 @@ article {
   position:relative;
   padding:70px 10px 5px;
   color:#083354;
+  height: 540px;
   border:1px solid #FFF;
   width:420px;
   -webkit-box-shadow:rgba(0,0,0,0.4) 1px 1px 1px;
   -moz-box-shadow:rgba(0,0,0,0.4) 1px 1px 1px;
   box-shadow:rgba(0,0,0,0.4) 1px 1px 1px;
 }
-
-/* - - - - - EXAMPLES - - - - - */
-
-/* pre { */
-/*   width: 92%; */
-/*   overflow: auto; */
-/*   margin: -10px 0px 10px; */
-/*   padding: 10px 8px 10px 12px; */
-/*   color: #3f3b36; */
-/*   border: 1px solid #e9e7e0; */
-/*   border-left: 13px solid #bce5be; */
-/*   font: lighter 12px/20px Monaco,'MonacoRegular',monospace; */
-/*   border-top-left-radius: 4px; */
-/*   border-bottom-left-radius: 4px; */
-/*   background: url("http://www.megandalbey.com/codepen/css-selectors/precode.gif") repeat scroll 0 -9px; */
-/* } */
-
-/* pre:before { */
-/*   content:'CSS'; */
-/*   position:absolute; */
-/*   -webkit-transform: rotate(90deg);  */
-/*   -moz-transform: rotate(90deg);	 */
-/*   margin:0px 0px 0px -28px; */
-/*   color:#7bb27d; */
-/*   font-size:9px */
-/* } */
-
-/* xmp { */
-/*   width: 92%; */
-/*   overflow: auto; */
-/*   margin: 0px 0px 10px; */
-/*   padding: 10px 8px 10px 12px; */
-/*   color: #3f3b36; */
-/*   border: 1px solid #e9e7e0; */
-/*   border-left: 13px solid #d0e4f7; */
-/*   font: lighter 12px/20px Monaco,'MonacoRegular',monospace; */
-/*   border-top-left-radius: 4px; */
-/*   border-bottom-left-radius: 4px; */
-/*   background: url("http://www.megandalbey.com/codepen/css-selectors/precode.gif") repeat scroll 0 -9px; */
-/* } */
-
-/* xmp:before { */
-/*   content:'HTML'; */
-/*   position:absolute; */
-/*   -webkit-transform: rotate(90deg);  */
-/*   -moz-transform: rotate(90deg);	 */
-/*   margin:3px 0px 0px -31px; */
-/*   color:#7395b5; */
-/*   font-size:9px */
-/* } */
-
-/* .example { */
-/*   width: 92%; */
-/*   margin: 0px 0px 10px; */
-/*   padding: 6px 8px 6px 12px; */
-/*   color: #3f3b36; */
-/*   border: 1px solid #e9e7e0; */
-/*   border-left: 13px solid #e1c9ea; */
-/*   border-top-left-radius: 4px; */
-/*   border-bottom-left-radius: 4px; */
-/*   background:#FFF; */
-/*   min-height:45px; */
-/* } */
-
-/* .example:before { */
-/*   content:'EXAMPLE'; */
-/*   position:absolute; */
-/*   -webkit-transform: rotate(90deg);  */
-/*   -moz-transform: rotate(90deg);	 */
-/*   margin:18px 0px 0px -38px; */
-/*   color:#a077af; */
-/*   font-size:9px */
-/* } */
-
-/* #e-1 * { border:1px solid #00F; } */
-/* #e-2 #red { color:#F00; } */
-/* #e-3 .blue { color:#00F; } */
-/* #e-4 a { font-weight:bold; } */
-/* #e-5 p span { font-weight:bold; } */
-/* #e-6 div>ul>li { border:1px solid #F00; } */
-/* #e-7 h4 + p { color:#F00; } */
-/* #e-8 h4 ~ p { color:#F00; } */
-/* #e-9 a[title] { color:#990; } */
-/* #e-10 input[type=radio]:checked+span {  */
-/*   border:1px solid #F00;  */
-/* } */
-
-/* - - - - - PEN - - - - - */
 
 #pen {
   position:absolute;
