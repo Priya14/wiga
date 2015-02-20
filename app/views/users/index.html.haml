@@ -1,0 +1,49 @@
+%header
+  #header
+    %h1 Stay in Touch
+    .extra-shadow
+.leather
+  .leather-stitch
+    %ul.rings
+      %li
+      %li
+      %li
+
+    #pen
+      #cap
+        #cap1
+        #cap2
+        #cap3
+        #cap4
+        #cap5
+        #cap6
+      #hold
+        -# #label 
+        #band
+        #band1
+        #band2
+        #band3
+      #cart
+        #cart2
+        #cart3
+      #metal
+      #color
+      #ink
+    %article
+      %p "We will get in contact with ' YOU ' as soon as possible...".
+      %center
+        Made this little reference to help :)
+      %section
+        = form_for User.new, :html => { :class => "form-vertical", :role => "form", :id => "contactForm"}  do |f|
+          .form-group
+            = f.text_field :name,:class => 'form-control', :placeholder => 'Name *', :id => "name"
+            %p.help-block.text-danger
+          .form-group
+            = f.text_field :email,:class => 'form-control', :placeholder => 'Email *', :id => "email"
+            %p.help-block.text-danger
+          .form-group
+            = f.text_area :details ,:class => 'form-control', :placeholder => 'Your Message *', :id => "message"
+            %p.help-block.text-danger
+          %center
+            #success
+            %button.btn.btn-xl{:type => "submit"} Send Message

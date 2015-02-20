@@ -32,7 +32,7 @@ Rails.application.configure do
 
   # Raise an error on page load if there are pending migrations
   config.active_record.migration_error = :page_load
-  #config.action_mailer.default_url_options = { host: 'localhost:3000' }
+  config.action_mailer.default_url_options = { host: 'localhost:3000' }
   
   # Debug mode disables concatenation and preprocessing of assets.
   # This option may cause significant delays in view rendering with a large
@@ -44,8 +44,8 @@ Rails.application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :domain               => "gmail.com",
-    :user_name            => "noreply.wiga@gmail.com",
-    :password             => "welcome",
+    :user_name            => "noreply.olexam@gmail.com",
+    :password             => "welcomeexam",
     :authentication       => "plain",
     :enable_starttls_auto => true
   }

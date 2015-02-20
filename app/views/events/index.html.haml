@@ -60,7 +60,7 @@
                   .modal-footer
                     = f.submit 'save', :class => 'btn btn-primary'
 .row
-  .container
+  .col-sm-12
     - @events.each do |e|
       %table{:style => "width:100%;"}
         %thead
@@ -73,13 +73,14 @@
             
             %td
               .event-well-header
-                %center
-                  = e.events_date.strftime("%b")
+                %center 
+                  = e.events_date.strftime("%b") + "," + e.events_date.strftime("%y")
               .event-well
                 %center
                   = e.events_date.strftime("%d")
             %td
               = image_tag e.avatar, :size => '300',:class => 'img-thumbnail img-responsive'
+              
 
             %td
               .row

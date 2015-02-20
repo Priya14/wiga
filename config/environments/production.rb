@@ -81,7 +81,7 @@ Rails.application.configure do
  config.action_mailer.delivery_method = :sendmail
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.default_options = {from: 'noreply.wiga@gmail.com'}
+  config.action_mailer.default_options = {from: 'noreply.olexam@gmail.com'}
 
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
   
@@ -92,8 +92,8 @@ Rails.application.configure do
     :address              => "smtp.gmail.com",
     :port                 => 587,
     :domain               => "gmail.com",
-    :user_name            => "noreply.wiga@gmail.com",
-    :password             => "welcome",
+    :user_name            => "noreply.olexam@gmail.com",
+    :password             => "welcomeexam",
     :authentication       => "plain",
     :enable_starttls_auto => true
   }

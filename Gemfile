@@ -3,7 +3,7 @@ source 'https://rubygems.org'
  gem 'rmagick'
  gem 'mini_magick'
  gem 'bootstrap-datepicker-rails'        
-
+ gem 'fog'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -38,7 +38,7 @@ gem 'spring',        group: :development
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'mail'
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 gem 'haml', '~> 4.0.5'

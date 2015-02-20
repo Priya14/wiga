@@ -239,7 +239,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default {
-    
+    position: fixed;
     border-color: transparent;
     background-color: #222;
 }
@@ -332,8 +332,12 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
-
+.pic1{ width:350px; height:275px;
+        background: url(images/ing.jpg) no-repeat; }
+.text1{ width:170px; height:220px; background:#FFF; opacity:0; }
+.pic1:hover .text1 { opacity:0.8; text-align:justify; color:#000000; font-size:20px; font-weight:700; font-family:"Times New Roman", Times, serif; padding:30px; }
 header {
+    position: fixed;
     text-align: center;
     color: #fff;
     background-attachment: scroll;
