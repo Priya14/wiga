@@ -66,8 +66,8 @@
         %thead
           %tr
             %th{:style => "width:10%;"}
-            %th{:style => "width:20%;"}
-            %th{:style => "width:30%;"}
+            %th{:style => "width:80%;"}
+            //%th{:style => "width:30%;"}
         %tbody
           %tr
             
@@ -78,8 +78,8 @@
               .event-well
                 %center
                   = e.events_date.strftime("%d")
-            %td
-              = image_tag e.avatar, :size => '300',:class => 'img-thumbnail img-responsive'
+            -# %td
+            -#   = image_tag e.avatar, :size => '300',:class => 'img-thumbnail img-responsive'
               
 
             %td
