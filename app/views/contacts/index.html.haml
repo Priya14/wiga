@@ -1,6 +1,7 @@
 %header
   #header
     %h1 Stay in Touch
+  
     .extra-shadow
 .leather
   .leather-stitch
@@ -31,8 +32,10 @@
       #ink
     %article
       %p "We will get in contact with ' YOU ' as soon as possible...".
+      
       %center
         Made this little reference to help :)
+        
       %section
         = form_for User.new, :html => { :class => "form-vertical", :role => "form", :id => "contactForm"}  do |f|
           .form-group
