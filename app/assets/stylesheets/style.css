@@ -373,16 +373,6 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 
 @media (max-width:320px) {
-.div#p2
-{
-max-height:10px;
-max-width:10px;
-}
-.div.header12
-{
-max-height:10px;
-max-width:10px;
-}
 .container{
 max-height:400px;
 max-width:40px;
