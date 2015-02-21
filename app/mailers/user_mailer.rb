@@ -3,6 +3,6 @@ class UserMailer < ActionMailer::Base
   def welcome_email(user)
     @user = user
     @url  = 'http://example.com/login'
-    mail(to: 'navya@ostryalabs.com', subject: 'Mail From Visitors')
+    mail(to: 'info@womeninterface.com', subject: 'Mail From Visitors')
   end
 end

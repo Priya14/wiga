@@ -24,7 +24,7 @@
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     color: black;
-   
+    
 }
 .description1{
        
@@ -1266,8 +1266,7 @@ h2 {
 
 .leather {  
   background:url('http://megandalbey.com/codepen/css-selectors/leather.jpg') #6b3a0d;
-  width:520px;
-  height:600px;
+ 
   padding:5px;
   margin:-5px auto 0px;
   border-radius:5px;
