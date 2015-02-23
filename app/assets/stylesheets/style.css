@@ -365,9 +365,19 @@ ul.callbacks_tabs.callbacks1_tabs {
 	bottom: 10px;
 	left: 4px;
 }
+.header12{
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;                
+}
 }
 
 @media (max-width:320px) {
+.header12{
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;                
+}
 .container{
 max-height:400px;
 max-width:40px;
@@ -528,6 +538,17 @@ address {
 	height: 22px;
 	font-size: 0.8em;
 }
+.letterP3 {
+    font-size: 10px;
+}
+.p#p2 {
+    font-size: 10px;
+}
+.header12{
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;                
+}
 .callbacks_nav {
 	top: 60%;
 }
@@ -549,9 +570,19 @@ address {
 .caption h1 {
 	font-size: 2em;
 }
-
+.letterP3 {
+    font-size: 10px;
+}
+.p#p2 {
+    font-size: 10px;
+}
 .callbacks_nav {
 	top: 70%;
+}
+.header12{
+    font-weight: bold;
+    color: #fff;
+    font-size: 10px;                
 }
 .callbacks_nav {
 	left: 0px;
@@ -576,8 +607,15 @@ address {
 }
 
 @media (max-width: 320px) {
+
+.letterP3 {
+    font-size: 10px;
+}
 .logo img {
 	width: 58%;
+}
+.p#p2 {
+    font-size: 10px;
 }
 .caption h1 {
 	font-size: 26px;
@@ -594,6 +632,10 @@ address {
 .callbacks_nav.next {
 	background-position: -20px -47px;
 }
+.morquee-text{
+    color: #FFF;
+    font-size: 5px;
+}
 }
 .footer{ 
     
@@ -602,3 +644,4 @@ address {
 .morquee-text{
     color: #FFF;
 }
+/*================================================================================*/
