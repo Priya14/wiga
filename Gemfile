@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
- gem 'carrierwave'              
- gem 'rmagick'
- gem 'mini_magick'
- gem 'bootstrap-datepicker-rails'        
- gem 'fog'
+gem 'carrierwave'
+gem 'rmagick'
+gem 'mini_magick'
+gem 'bootstrap-datepicker-rails'
+gem 'fog'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
@@ -43,7 +43,6 @@ gem 'mail'
 # gem 'debugger', group: [:development, :test]
 gem 'haml', '~> 4.0.5'
 gem 'bootstrap-sass', '~> 3.3.0.1'
-gem 'bootstrap', '~> 0.0.1'
 gem 'jquery-ui-rails'
 gem "font-awesome-rails"
 gem 'rails_12factor', group: :production
